@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Responsivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-container">
+        <div class="video-wrapper">
+<video width="560" height="315" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1QBrgOExxr40-cXFc0Wyngmd92SV-pB-1" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+        </div>
+        <div class="video-wrapper">
+            <video src="videos/Corações LED.mov" poster="thumbnail2.jpg" controls></video>
+        </div>
+        <div class="video-wrapper">
+            <video src="videos/gigantes.mov" poster="thumbnail3.jpg" controls></video>
+        </div>
+        <div class="video-wrapper">
+            <video src="videos/atendimento de coração - final 5.mov" poster="thumbnail4.jpg" controls></video>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="overlay-content">
+            <span class="close" id="close-overlay">&times;</span>
+            <video id="overlay-video" controls></video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
